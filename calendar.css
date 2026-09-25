@@ -1,0 +1,48 @@
+body{
+    background-color: #fa0590;
+    padding-top: 120px;
+}
+.calendar{
+    margin: auto;
+    max-width: 800px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.month{
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}
+table,th, td{
+    text-align: center;
+    width: 100%;
+    border:  2px solid #152965;
+    font-size: 30px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+td{
+    background-color: rgb(15, 236, 15);
+}
+th{
+    background-color: #0c7bd6;
+}
+a{
+    text-decoration: none;
+    font-size: 50px;
+}
+.pre{
+    float: left;
+    font-size: 80px;
+}
+.next{
+    float: right;
+    font-size: 80px;
+}
+td:hover{
+    opacity: 0.8;
+}
